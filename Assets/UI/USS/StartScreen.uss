@@ -1,0 +1,40 @@
+.title-label {
+    font-size: 200px;
+    -unity-font-definition: url('project://database/Assets/Art/Fonts/Bellefair/Bellefair-Regular.ttf?fileID=12800000&guid=a00f42865d38e5b4989baf8b3e1ce070&type=3#Bellefair-Regular');
+    color: rgb(226, 225, 190);
+}
+
+.menu-button {
+    background-color: rgb(111, 35, 34);
+    color: rgb(226, 225, 190);
+    -unity-font-definition: url('project://database/Assets/Art/Fonts/Bellefair/Bellefair-Regular.ttf?fileID=12800000&guid=a00f42865d38e5b4989baf8b3e1ce070&type=3#Bellefair-Regular');
+    font-size: 30px;
+    border-left-color: rgb(126, 96, 57);
+    border-right-color: rgb(126, 96, 57);
+    border-top-color: rgb(126, 96, 57);
+    border-bottom-color: rgb(126, 96, 57);
+    width: 250px;
+    height: 80px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.menu-button:disabled {
+    background-color: rgb(82, 82, 82);
+    color: rgb(226, 225, 190);
+    -unity-font-definition: url('project://database/Assets/Art/Fonts/Bellefair/Bellefair-Regular.ttf?fileID=12800000&guid=a00f42865d38e5b4989baf8b3e1ce070&type=3#Bellefair-Regular');
+    font-size: 30px;
+    border-left-color: rgb(126, 96, 57);
+    border-right-color: rgb(126, 96, 57);
+    border-top-color: rgb(126, 96, 57);
+    border-bottom-color: rgb(126, 96, 57);
+    width: 250px;
+    height: 80px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    opacity: 0.5;
+}

@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/USS/Common.uss?fileID=7433441132597879392&amp;guid=c2d26d4fa0f1b934592b860f5e05cf07&amp;type=3#Common" />
+    <Style src="project://database/Assets/UI/USS/StartScreen.uss?fileID=7433441132597879392&amp;guid=8f7089f63a06a9f4ca7c6f1b60101133&amp;type=3#StartScreen" />
+    <ui:VisualElement name="menu__container" class="fullscreen-container dark-bg" style="flex-grow: 1;">
+        <ui:VisualElement name="menu__title" style="flex-direction: row; margin-top: 50px; margin-right: 50px; margin-bottom: 50px; margin-left: 50px;">
+            <ui:Label text="RPG" class="title-label" style="-unity-text-outline-color: rgb(126, 96, 57); -unity-text-outline-width: 1px;" />
+            <ui:Label text="UI" class="title-label" style="color: rgb(111, 35, 34);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="menu__panel">
+            <ui:Button text="New Game" name="menu__button-new-game" class="menu-button" />
+            <ui:Button text="Continue" name="menu__button-continue" enabled="false" class="menu-button" />
+            <ui:Button text="Settings" name="menu__button-settings" enabled="false" class="menu-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

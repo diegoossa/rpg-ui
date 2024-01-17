@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/USS/Common.uss?fileID=7433441132597879392&amp;guid=c2d26d4fa0f1b934592b860f5e05cf07&amp;type=3#Common" />
+    <Style src="project://database/Assets/UI/USS/ProgressBar.uss?fileID=7433441132597879392&amp;guid=3a018c1a99b95c646afe482e038d6613&amp;type=3#ProgressBar" />
+    <ui:VisualElement name="splash__container" class="fullscreen-container dark-bg">
+        <ui:ProgressBar value="22" name="splash__progress-bar" class="loading-bar" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="StartScreen" src="project://database/Assets/UI/UXML/StartScreen.uxml?fileID=9197481963319205126&amp;guid=eca17e22c94b6b24ca60c6df45dfd629&amp;type=3#StartScreen" />
+    <ui:Template name="SplashScreen" src="project://database/Assets/UI/UXML/SplashScreen.uxml?fileID=9197481963319205126&amp;guid=b74ba0d4d4f61334c9bfa6710aaea2c4&amp;type=3#SplashScreen" />
+    <ui:Template name="MainMenuScreen" src="project://database/Assets/UI/UXML/MainMenuScreen.uxml?fileID=9197481963319205126&amp;guid=e9cce6b963383104f8f93d41fa41e361&amp;type=3#MainMenuScreen" />
+    <ui:Template name="CharacterSelectionScreen" src="project://database/Assets/UI/UXML/CharacterSelectionScreen.uxml?fileID=9197481963319205126&amp;guid=3572a6a4e9a927e42857fc7a4da1fdf0&amp;type=3#CharacterSelectionScreen" />
+    <Style src="project://database/Assets/UI/USS/Common.uss?fileID=7433441132597879392&amp;guid=c2d26d4fa0f1b934592b860f5e05cf07&amp;type=3#Common" />
+    <ui:Instance template="StartScreen" name="StartScreen" picking-mode="Ignore" class="fullscreen-container" />
+    <ui:Instance template="SplashScreen" name="SplashScreen" picking-mode="Ignore" class="fullscreen-container" />
+    <ui:Instance template="MainMenuScreen" name="MainMenuScreen" picking-mode="Ignore" class="fullscreen-container" />
+    <ui:Instance template="CharacterSelectionScreen" name="CharacterSelectionScreen" />
+</ui:UXML>

@@ -1,0 +1,19 @@
+* {
+    -unity-font-definition: url('project://database/Assets/Art/Fonts/Bellefair/Bellefair-Regular.ttf?fileID=12800000&guid=a00f42865d38e5b4989baf8b3e1ce070&type=3#Bellefair-Regular');
+}
+
+.tab-button {
+    background-color: rgb(29, 23, 23);
+    flex-grow: 1;
+    height: 75px;
+    font-size: 35px;
+    color: rgb(226, 225, 190);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}

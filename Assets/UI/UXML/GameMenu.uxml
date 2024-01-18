@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="Inventory" src="project://database/Assets/UI/UXML/Inventory/Inventory.uxml?fileID=9197481963319205126&amp;guid=1c5aac499d8f08e469bc6e527672efaa&amp;type=3#Inventory" />
+    <Style src="project://database/Assets/UI/USS/Common.uss?fileID=7433441132597879392&amp;guid=c2d26d4fa0f1b934592b860f5e05cf07&amp;type=3#Common" />
+    <Style src="project://database/Assets/UI/USS/GameMenu.uss?fileID=7433441132597879392&amp;guid=3438b45e4b9bb3948877615e131bd04b&amp;type=3#GameMenu" />
+    <ui:VisualElement name="game-menu__container" style="flex-grow: 1;">
+        <ui:VisualElement name="game-menu__tabs" style="flex-direction: row;">
+            <ui:Button text="Inventory" name="tab-inventory" class="tab-button" style="border-bottom-color: rgb(126, 96, 57); border-bottom-width: 2px;" />
+            <ui:Button text="Map" name="tab-map" class="tab-button" />
+            <ui:Button text="Skills" name="tab-skills" class="tab-button" />
+        </ui:VisualElement>
+        <ui:VisualElement name="game-menu__tab-content" style="flex-grow: 1;">
+            <ui:Instance template="Inventory" name="InventoryScreen" style="width: 100%; height: 100%;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

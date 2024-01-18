@@ -1,4 +1,10 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/UI/USS/Common.uss?fileID=7433441132597879392&amp;guid=c2d26d4fa0f1b934592b860f5e05cf07&amp;type=3#Common" />
-    <ui:VisualElement name="inventory__container" style="flex-grow: 1;" />
+    <Style src="project://database/Assets/UI/USS/Inventory.uss?fileID=7433441132597879392&amp;guid=debe3e852bcd54f42923c95d408cd1f7&amp;type=3#Inventory" />
+    <ui:VisualElement name="inventory-screen__container" class="fullscreen-container" style="flex-grow: 1; flex-direction: row; background-color: rgb(35, 29, 29);">
+        <ui:VisualElement name="inventory-screen__character-space" style="flex-grow: 1; height: 100%; flex-basis: 40%; background-image: url(&apos;project://database/Assets/Resources/RT_Character.renderTexture?fileID=8400000&amp;guid=c5284d095317e3048b9ada53c36f4a8f&amp;type=2#RT_Character&apos;);" />
+        <ui:VisualElement name="inventory-screen__panel" class="medium-dark-bg" style="flex-grow: 1; height: 100%; flex-basis: 60%; align-items: center; justify-content: center;">
+            <ui:VisualElement name="inventory-container" class="inventory-container" />
+        </ui:VisualElement>
+    </ui:VisualElement>
 </ui:UXML>

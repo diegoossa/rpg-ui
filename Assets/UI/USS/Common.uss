@@ -15,6 +15,12 @@
     position: absolute;
 }
 
+.large-text {
+    -unity-font-definition: url('project://database/Assets/Art/Fonts/Bellefair/Bellefair-Regular.ttf?fileID=12800000&guid=a00f42865d38e5b4989baf8b3e1ce070&type=3#Bellefair-Regular');
+    font-size: 60px;
+    color: rgb(226, 225, 190);
+}
+
 .fullscreen-container {
     width: 100%;
     height: 100%;
@@ -23,13 +29,18 @@
     justify-content: center;
 }
 
-.large-text {
-    -unity-font-definition: url('project://database/Assets/Art/Fonts/Bellefair/Bellefair-Regular.ttf?fileID=12800000&guid=a00f42865d38e5b4989baf8b3e1ce070&type=3#Bellefair-Regular');
-    font-size: 60px;
-    color: rgb(226, 225, 190);
-}
-
 .dark-bg {
     background-color: rgb(29, 23, 23);
 }
 
+.fullscreen-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.medium-dark-bg {
+    background-color: rgb(43, 34, 34);
+}

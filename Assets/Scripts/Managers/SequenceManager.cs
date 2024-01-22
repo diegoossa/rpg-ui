@@ -46,6 +46,7 @@ namespace rpg.ui
         public IState CurrentState => m_StateMachine.CurrentState;
 
         #region MonoBehaviour event messages
+        
         private void Start()
         {
             // Set this MonoBehaviour to control the coroutines - unused in this demo

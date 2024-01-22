@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="map-container" style="flex-grow: 1;">
+        <ui:VisualElement name="map-image" style="background-image: url(&apos;project://database/Assets/Art/UI/Textures/map.png?fileID=2800000&amp;guid=a6af6b024782ec349851111201c19784&amp;type=3#map&apos;); -unity-background-scale-mode: scale-and-crop; width: 4096px; height: 4096px; position: absolute;" />
+    </ui:VisualElement>
+</ui:UXML>

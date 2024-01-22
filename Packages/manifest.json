@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.unity.2d.sprite": "1.0.0",
     "com.unity.burst": "1.8.12",
     "com.unity.charactercontroller": "1.1.0-exp.10",
     "com.unity.collab-proxy": "2.2.0",
@@ -9,7 +10,6 @@
     "com.unity.inputsystem": "1.8.0-pre.2",
     "com.unity.render-pipelines.universal": "17.0.2",
     "com.unity.scriptablebuildpipeline": "2.1.0",
-    "com.unity.test-framework": "1.4.2",
     "com.unity.timeline": "1.8.6",
     "com.unity.toolchain.win-x86_64-linux-x86_64": "2.0.6",
     "com.unity.ugui": "2.0.0",

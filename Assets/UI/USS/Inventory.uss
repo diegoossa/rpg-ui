@@ -1,6 +1,6 @@
 .slot-container {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     margin: 3px;
     padding: 10px;
     background-color: rgb(27, 23, 23);
@@ -14,12 +14,15 @@
     border-left-width: 1px;
     align-items: center;
     justify-content: center;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
 }
 
 .slot-icon {
     width: 100%;
     height: 100%;
-    background-image: url('project://database/Assets/Art/UI/Textures/axe.png?fileID=2800000&guid=b0924ca7ead8678428403a01d6ccab48&type=3#axe');
 }
 
 .inventory-container {
